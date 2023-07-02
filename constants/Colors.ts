@@ -16,4 +16,11 @@ export default {
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
   },
+  CollectTheme: {
+    backgroundColorPrimary: '#8E75D6',
+    backgroundColorSecondary: 'F6F3FF',
+    fullPageBackGroundColor: 'white',
+    darkBackedTextColor: 'white',
+    lightBackedTextColor: 'black'
+  }
 };

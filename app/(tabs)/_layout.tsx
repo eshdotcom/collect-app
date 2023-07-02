@@ -23,9 +23,9 @@ export default function TabLayout() {
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
       }}>
       <Tabs.Screen
-        name="index"
+        name="CollectSplashScreen"
         options={{
-          title: 'Tab One',
+          title: 'Collect Splash Screen',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
@@ -44,9 +44,9 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="two"
+        name="HomePage"
         options={{
-          title: 'Tab Two',
+          title: 'Home Page',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
       />
